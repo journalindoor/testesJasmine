@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/journalindoor/testesJasmine/issues"
   },
-  "homepage": "https://github.com/journalindoor/testesJasmine#readme"
+  "homepage": "https://github.com/journalindoor/testesJasmine#readme",
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  }
 }
