@@ -1,4 +1,4 @@
-describe("Teste do beforeEach",  () => {
+xdescribe("Teste do beforeEach",  () => {
 
     var contador = 0;
 
