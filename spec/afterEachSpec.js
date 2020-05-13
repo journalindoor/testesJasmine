@@ -12,6 +12,7 @@ describe("Teste do afterEach",  () => {
 
     it("Deve garantir o valor 1 para o contador",  () => {
         expect(contador).toEqual(1);
+        pending("Desativei para testar");
     });
 
     it("Deve ainda garantir o contador com o valor 1",  () => {
