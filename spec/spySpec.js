@@ -10,8 +10,9 @@ describe("Testes do objeto Spy", () => {
         spyOn(Calculadora, "somar");
     });
 
-    it("Deve possuir o método somar como não definido", ()=>{
-        expect(Calculadora.somar(1,1)).toBeUndefined();
+    it("Deve chamar o método somar ao menos uma vez", ()=>{
+        Calculadora.somar(1,1);
+        expect(Calculadora.somar).toHaveBeenCalled();
     });
 
 });
