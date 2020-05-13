@@ -10,9 +10,10 @@ describe("Testes do objeto Spy", () => {
         spyOn(Calculadora, "somar");
     });
 
-    it("Deve chamar o método somar ao menos uma vez", ()=>{
+    it("Deve chamar o método somar duas vezes", ()=>{
         Calculadora.somar(1,1);
-        expect(Calculadora.somar).toHaveBeenCalled();
+        Calculadora.somar(2,2);
+        expect(Calculadora.somar).toHaveBeenCalledTimes(2);
     });
 
 });
