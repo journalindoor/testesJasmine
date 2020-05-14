@@ -7,9 +7,9 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "karma start --single-run",
+    "test-jasmine": "jasmine",
     "test-dev": "karma start",
-    "test-jasmine": "jasmine"
+    "test": "karma start --single-run"
   },
   "repository": {
     "type": "git",
